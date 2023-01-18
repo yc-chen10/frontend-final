@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/themes/light-border.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    
+
+    <title>撿到寶</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg p-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+         
+          <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto ">
+              <li class="nav-item">
+                <a class="nav-link mx-2 active" href="index.html">首頁</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#" style="color:#F9C745;">服務介紹</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#">設計作品</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#">領養專區</a>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="btn btn-warning" onclick="location.href='purchasePaint.html'">毛孩似顏繪</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </nav>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!--<h1>Full of fur, Full of love</h1>-->
+            <img class="d-block w-100" src="img/banner.png" alt="First slide">
+          </div>
+        </div>
+    </div>
+
+    <div class="card-deck">
+        <div class="row row-cols-1 row-cols-md-4 m-5  justify-content-center text-center">
+            <div class="col">
+              <div class="card h-80 border-0">
+                  <img src="img/step01.png" class="card-img-top" >
+                  <h5 class="card-title p-3" style="color: #F9C745;font-weight: bold;font-size: 20px;">STEP1</h5>
+                  <h5 class="card-title " style="font-weight: bold;font-size: 20px;">購買似顏繪服務</h5>
+                  <p class="card-text p-3">填寫購買表單<br>並完成轉帳付款</p>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card h-80 border-0">
+                  <img src="img/step02.png" class="card-img-top" >
+                  <h5 class="card-title p-3" style="color: #F9C745;font-weight: bold;font-size: 20px;">STEP2</h5>
+                  <h5 class="card-title" style="font-weight: bold;font-size: 20px;">設計師繪製</h5>
+                  <p class="card-text p-3">設計師繪製似顏繪<br>不提供改稿</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-80 border-0 ">
+                  <img src="img/step04.png" class="card-img-top">
+                  <h5 class="card-title p-3" style="color: #F9C745;font-weight: bold;font-size: 20px;">STEP3</h5>
+                  <h5 class="card-title" style="font-weight: bold;font-size: 20px;">畫作提供</h5>
+                  <p class="card-text p-3">電子檔案or實體化做寄送<br>設計師提供作品</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-80 border-0">
+                  <img src="img/step03.png" class="card-img-top" >
+                  <h5 class="card-title p-3" style="color: #F9C745;font-weight: bold;font-size: 20px;">STEP4</h5>
+                  <h5 class="card-title" style="font-weight: bold;font-size: 20px;">幫助浪浪</h5>
+                  <p class="card-text p-3">每個月30號我們會將設計費<br>購買飼料，提供給xxx中途之家</p>
+                </div>
+              </div>
+          </div>
+    </div>
+   
+    <div class="footer top">
+        <div class="d-inline card mb-3 border-0 d-flex justify-content-center align-items-center" style="margin-top: 80px;">
+            <div class="row g-0">
+              <div class="col-md-2">
+                <img src="img/link01.png" class="img-fluid rounded-start">
+              </div>
+              <div class="col-md-4 d-flex align-items-center">
+                <div class="card-body">
+                  <h5 class="card-title" style="font-size: 24px;">加入奴才團隊</h5>
+                  <p class="card-text" style="line-height: 22px;">我也會畫畫，希望能盡一份心力！</p>
+                  <button type="button" class="btn btn-basic" onclick="location.href='purchasePaint.html'">聯絡我們</button>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <img src="img/link02.png" class="img-fluid rounded-start">
+              </div>
+              <div class="col-md-4 d-flex align-items-center">
+                <div class="card-body">
+                  <h5 class="card-title" style="font-size: 24px;">加入奴才團隊</h5>
+                  <p class="card-text" style="line-height: 22px;">我也會畫畫，希望能盡一份心力！</p>
+                  <button type="button" class="btn btn-basic">領養專區</button>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="bottomSide">
+            <span>Copyright © 2021 撿到寶.All rights reserved.</span>
+        </div>
+    </div>
+</body>
+<script>
+    tippy('#fixedBtnImg', {
+        content: '客製我的毛孩圖',
+        hideOnClick: 'false',
+        showOnCreate: 'true', 
+        trigger: 'manual',
+        theme: "light-border"      
+      });
+
+</script>
+</html>
